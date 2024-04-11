@@ -94,10 +94,10 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #Ventral body surface.
     #Posterior longitudinal hypomeral carina and anterior hypomeral carina absent;
     this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
-    #abdomen with 7 sternites,
-    this > aism-abdomen_with_7_sternites;
-    #7th abdominal sternite with two symmetric grooves along posterolateral margin;
-    this > aism-abdominal_sternite_VII:id-5b27e8 > aism-cuticular_groove:id-2b95eb .ro-adjacent_to bspo-postero-lateral_margin < aism-abdominal_sternite_VII:id-5b27e8;
+    #abdomen with 8 sternites,
+    this > aism-abdomen_with_8_sternites;
+    #8th abdominal sternite with two symmetric grooves along posterolateral margin;
+    this > aism-abdominal_sternite_VIII:id-5b27e8 > aism-cuticular_groove:id-2b95eb .ro-adjacent_to bspo-postero-lateral_margin < aism-abdominal_sternite_VIII:id-5b27e8;
         aism-cuticular_groove:id-2b95eb >> pato-bilaterally_paired;
 
     #Tergite VIII.
@@ -279,10 +279,10 @@ OTU = { #// OTUName:  Scarabaeus menabeensis
     #Ventral body surface.
     #Posterior longitudinal hypomeral carina and anterior hypomeral carina absent;
     this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
-    #abdomen with 7 sternites,
-    this > aism-abdomen_with_7_sternites;
+    #abdomen with 8 sternites,
+    this > aism-abdomen_with_8_sternites;
     #7th abdominal sternite with two symmetric grooves along posterolateral margin;
-    this > aism-abdominal_sternite_VII:id-1b6ee6 > aism-cuticular_groove:id-089f0d .ro-adjacent_to bspo-postero-lateral_margin < aism-abdominal_sternite_VII:id-1b6ee6;
+    this > aism-abdominal_sternite_VIII:id-1b6ee6 > aism-cuticular_groove:id-089f0d .ro-adjacent_to bspo-postero-lateral_margin < aism-abdominal_sternite_VIII:id-1b6ee6;
         aism-cuticular_groove:id-089f0d >> pato-bilaterally_paired;
 
     #Tergite VIII.
