@@ -1,5 +1,5 @@
 
-#Descriptions of Scarabaeus viettei (Paulian, 1953) and Scarabaeus menabeensis Montanaro & Tarasov, n. sp.
+#Descriptions of Scarabaeus viettei (Paulian, 1953) and Scarabaeus sakalava Montanaro & Tarasov, n. sp.
 
 
 OTU = { #// OTUName:  Scarabaeus viettei
@@ -187,15 +187,15 @@ OTU = { #// OTUName:  Scarabaeus viettei
 }
 
 
-OTU = { #// OTUName:  Scarabaeus menabeensis
+OTU = { #// OTUName:  Scarabaeus sakalava
   DATA = {
-    uberon-male_organism:scarabaeus_viettei[this = True, linksTraits = True, cls = 'uberon-adult_organism', cls = 'dwc-Preserved_Specimen'] .rdfs-label 'org_Scarabaeus menabeensis';
-    uberon-male_organism:scarabaeus_viettei .dwc-Catalog_Number 'http://id.luomus.fi/XXXXXXXXXXXXX'; #// fixit add ID
+    uberon-male_organism:scarabaeus_viettei[this = True, linksTraits = True, cls = 'uberon-adult_organism', cls = 'dwc-Preserved_Specimen'] .rdfs-label 'org_Scarabaeus sakalava';
+    uberon-male_organism:scarabaeus_viettei .dwc-Catalog_Number 'http://id.luomus.fi/GZ.15827';
     uberon-male_organism:scarabaeus_viettei .ro-has_role_in_modeling cdao-TU .iao-denotes taxrank-species:id-b787bd;
         
-    taxrank-species:id-b787bd .dwc-Taxon_ID_taxonID 'https://XXXXXXXXXXX'; #// fixit add ID
+    taxrank-species:id-b787bd .dwc-Taxon_ID_taxonID 'http://zoobank.org/7AD8F87F-E7C1-4094-BD63-7662F167E9CB';
     taxrank-species:id-b787bd .dwc-Parent_Name_Usage_ID 'https://www.gbif.org/species/9074838';
-    taxrank-species:id-b787bd .rdfs-label 'Scarabaeus menabeensis';
+    taxrank-species:id-b787bd .rdfs-label 'Scarabaeus sakalava';
     }
 
 
