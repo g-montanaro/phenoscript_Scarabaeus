@@ -2,10 +2,14 @@
 #Descriptions of Scarabaeus viettei (Paulian, 1953) and Scarabaeus sakalava Montanaro & Tarasov, n. sp.
 
 
+
 OTU = { #// OTUName:  Scarabaeus viettei
+
+#Description based on a non-type male specimen
+
   DATA = {
     uberon-male_organism:scarabaeus_viettei[this = True, linksTraits = True, cls = 'uberon-adult_organism', cls = 'dwc-Preserved_Specimen'] .rdfs-label 'org_Scarabaeus viettei';
-    uberon-male_organism:scarabaeus_viettei .dwc-Catalog_Number 'http://id.luomus.fi/XXXXXXXXXXXXX'; #// fixit add ID
+    uberon-male_organism:scarabaeus_viettei .dwc-Catalog_Number 'http://id.luomus.fi/GZ.15821';
     uberon-male_organism:scarabaeus_viettei .ro-has_role_in_modeling cdao-TU .iao-denotes taxrank-species:id-6af39d;
         
     taxrank-species:id-6af39d .dwc-Taxon_ID_taxonID 'https://www.gbif.org/species/4997091';
@@ -188,6 +192,9 @@ OTU = { #// OTUName:  Scarabaeus viettei
 
 
 OTU = { #// OTUName:  Scarabaeus sakalava
+
+#Description based on the holotype (male)
+
   DATA = {
     uberon-male_organism:scarabaeus_viettei[this = True, linksTraits = True, cls = 'uberon-adult_organism', cls = 'dwc-Preserved_Specimen'] .rdfs-label 'org_Scarabaeus sakalava';
     uberon-male_organism:scarabaeus_viettei .dwc-Catalog_Number 'http://id.luomus.fi/GZ.15827';
