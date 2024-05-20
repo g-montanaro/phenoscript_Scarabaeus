@@ -140,7 +140,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
         aism-mesofemur:id-28ed57 > bspo-ventral_margin > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
         aism-mesofemur:id-28ed57 > bspo-dorsal_margin > bspo-distal_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
     #mesotibia with posteroventral, anteroventral, anterodorsal and posterodorsal carinae bearing setae;
-    this > aism-mesotibial_posteroventral_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture; posteroventral_c
+    this > aism-mesotibial_posteroventral_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-mesotibial_anteroventral_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-mesotibial_anterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-mesotibial_posterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
@@ -153,7 +153,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
 
         aism-metafemur:id-8b0a41 > bspo-ventral_margin > bspo-proximal_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
     #metatibia with posteroventral, anteroventral, anterodorsal and posterodorsal carinae bearing setae,
-    this > aism-metatibial_posteroventral_arina > aism-row_of_punctures:id-d025a7 > aism-simple_setigerous_cuticular_puncture;
+    this > aism-metatibial_posteroventral_carina > aism-row_of_punctures:id-d025a7 > aism-simple_setigerous_cuticular_puncture;
     this > aism-metatibial_anteroventral_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-metatibial_anterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-metatibial_posterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
