@@ -12,12 +12,12 @@ authors:
   'Giulio Montanaro': https://orcid.org/0000-0003-0836-1364
   'Sergei Tarasov': https://orcid.org/0000-0001-5237-2330
 # ADD a short title of your project
-project-title: "Scarabaeus from Madagascar"
+project-title: "Scarabaeus (Coleoptera: Scarabaeinae) from Madagascar"
 importOntologies:
   - https://raw.githubusercontent.com/sergeitarasov/aism/devel/src/ontology/aism-edit.owl
   #- http://purl.obolibrary.org/obo/aism.owl
-  #- https://raw.githubusercontent.com/sergeitarasov/colao/devel/src/ontology/colao-edit.owl
-  - http://purl.obolibrary.org/obo/colao.owl
+  - https://raw.githubusercontent.com/sergeitarasov/colao/devel/src/ontology/colao-edit.owl
+  #- http://purl.obolibrary.org/obo/colao.owl
   - https://raw.githubusercontent.com/sergeitarasov/PhenoScript/main/phenospy_package/phenospy/package-data/phenoscript.owl
   - http://purl.obolibrary.org/obo/pato.owl
   - http://purl.obolibrary.org/obo/bspo.owl
