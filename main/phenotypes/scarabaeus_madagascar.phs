@@ -50,10 +50,13 @@ OTU = { #// OTUName:  Scarabaeus viettei
         aism-frons:id-eb4f3e > aism-cuticular_carina >> (pato-bilaterally_paired, pato-transverse_orientation, pato-decreased_length);
     #surface of vertex finely granulated;
     this > aism-vertex > aism-granulated_cuticle;
+
+    #// FIXIT: bspo-medial_surface is immaterial entity. All surfaces with > should be changed to ?? region
     #genae granulated medially, wrinkled laterally; clypeus wrinkled anteriorly;
     this > aism-gena:id-02ec81 > bspo-medial_surface > aism-granulated_cuticle;
         aism-gena:id-02ec81 > bspo-lateral_surface >> pato-wrinkled;
     this > aism-clypeus > bspo-anterior_surface >> pato-wrinkled;
+    
     #antennae with 9 antennomeres;
     this > aism-antenna_with_9_antennomeres:id-997e99 > colao-antennal_club > (aism-flagellomere_5, aism-flagellomere_6, aism-flagellomere_7);
     #glossa, maxilla and epipharynx present;
@@ -82,22 +85,30 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #Elytra and hind wings.
     #Elytra with 9 striae,
     this > colao-elytron_with_9_striae:id-f48d04;
-    #interstriae 8 and 9 carinated proximally along striae 7 and 8, respectively; #see Tarasov & Génier (2015) https://doi.org/10.1371/journal.pone.0116671
+    
+    # #interstriae 8 and 9 carinated proximally along striae 7 and 8, respectively; #see Tarasov & Génier (2015) https://doi.org/10.1371/journal.pone.0116671
     this > colao-elytral_interstria_8 > bspo-proximal_region > aism-cuticular_carina .ro-adjacent_to colao-elytral_stria_7 < this;
     this > colao-elytral_interstria_9 > bspo-proximal_region > aism-cuticular_carina .ro-adjacent_to colao-elytral_stria_8 < this;
+    
     #elytral surface microreticulate,
         colao-elytron_with_9_striae:id-f48d04 > bspo-dorsal_surface >> aism-microreticulate;
     #interstriae with sparse punctures, their surface covered with minute flat granules;
         colao-elytron_with_9_striae:id-f48d04 > colao-elytral_interstria:id-b19f79 > aism-punctate_cuticle > aism-cuticular_puncture >> pato-sparse;
         colao-elytral_interstria:id-b19f79 > aism-granulated_cuticle > aism-cuticular_granule >> (pato-decreased_size, pato-flattened);
     #scutellar shield concealed.
+    
+    
     this > colao-scutellar_shield >> pato-concealed;
     #Hind wings present and normally developed.
     this > aism-hind_wing >> (pato-present, pato-normal);
     
     #Ventral body surface.
     #Posterior longitudinal hypomeral carina and anterior hypomeral carina absent;
-    this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
+    #// RES: turns out there is a bug: !> does not work before (...)
+    # this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
+    this !> colao-posterior_longitudinal_hypomeral_carina;
+    this !> colao-anterior_hypomeral_carina;
+    
     #abdomen with 8 sternites,
     this > aism-abdomen_with_8_sternites;
     #8th abdominal sternite with two symmetric grooves along posterolateral margin;
@@ -130,9 +141,15 @@ OTU = { #// OTUName:  Scarabaeus viettei
         aism-protibia:id-f2af3d > bspo-ventral_margin > bspo-proximal_region >> pato-serrated;
     #anteroventral margin of profemur toothed distally;
     this > aism-profemur > bspo-antero-ventral_margin > bspo-distal_region > aism-cuticular_spine >> pato-flattened;
-    #meso- and metatibia with apical spur fused with tibia; #// fixit does it work?
-    this > aism-mesotibial_spur .pato-fused_with aism-mesotibia:id-296644 < this;
-    this > aism-metatibial_spur .pato-fused_with aism-metatibia:id-0495d1 < this;
+    
+    # # #meso- and metatibia with apical spur fused with tibia; #// fixit does it work?
+    #// RES: this is not correct since if aism-mesotibial_spur is fused it's not a spur (=separate sclerite)
+    #// RES: Also we do not know if it's indeed a spur or protrusion
+    #// RES: better  write protrusion
+    # this > aism-mesotibial_spur .pato-fused_with aism-mesotibia:id-296644 < this;
+    # this > aism-metatibial_spur .pato-fused_with aism-metatibia:id-0495d1 < this;
+    
+    
     #anterior surface of mesofemur with many setigerous cuticular punctures,
     this > aism-mesofemur:id-28ed57 > bspo-anterior_surface > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 
