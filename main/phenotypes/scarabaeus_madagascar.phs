@@ -337,9 +337,9 @@ OTU = { #// OTUName:  Scarabaeus viettei
 #         aism-protibia:id-bbda5c > bspo-ventral_margin > bspo-proximal_region >> pato-serrated;
 #     #anteroventral margin of profemur toothed distally;
 #     this > aism-profemur > bspo-antero-ventral_margin > bspo-distal_region > aism-cuticular_spine >> pato-flattened;
-#     #meso- and metatibia with apical spur fused with tibia; #// fixit does it work?
-#     this > aism-mesotibial_spur .pato-fused_with aism-mesotibia:id-648159 < this;
-#     this > aism-metatibial_spur .pato-fused_with aism-metatibia:id-a88c7d < this;
+#     #meso- and metatibia with apical spur fused with tibia;
+#     this > aism-mesotibia:id-648159 > bspo-distal_region > aism-cuticular_spine .cdao-homologous_to aism-mesotibial_spur;
+#     this > aism-metatibia:id-a88c7d > bspo-distal_region > aism-cuticular_spine .cdao-homologous_to aism-metatibial_spur;
 #     #anterior surface of mesofemur with many setigerous cuticular punctures,
 #     this > aism-mesofemur:id-a852f3 > bspo-anterior_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 #     #ventral margin with setigerous punctures, dorsal margin with setigerous punctures only distally;
