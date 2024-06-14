@@ -52,10 +52,11 @@ OTU = { #// OTUName:  Scarabaeus viettei
     this > aism-vertex > aism-granulated_cuticle;
 
     #// FIXIT: bspo-medial_surface is immaterial entity. All surfaces with > should be changed to ?? region
+    #// RES: DONE IT ! region is the best option I could find, too
     #genae granulated medially, wrinkled laterally; clypeus wrinkled anteriorly;
-    this > aism-gena:id-02ec81 > bspo-medial_surface > aism-granulated_cuticle;
-        aism-gena:id-02ec81 > bspo-lateral_surface >> pato-wrinkled;
-    this > aism-clypeus > bspo-anterior_surface >> pato-wrinkled;
+    this > aism-gena > bspo-dorsal_region:id-02ec81 > bspo-medial_region > aism-granulated_cuticle;
+        bspo-dorsal_region:id-02ec81 > bspo-lateral_region >> pato-wrinkled;
+    this > aism-clypeus > bspo-dorsal_region > bspo-anterior_region >> pato-wrinkled;
     
     #antennae with 9 antennomeres;
     this > aism-antenna_with_9_antennomeres:id-997e99 > colao-antennal_club > (aism-flagellomere_5, aism-flagellomere_6, aism-flagellomere_7);
@@ -69,7 +70,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     # #Pronotum.
     # Wider than long, evenly convex;
     this > aism-pronotum:id-1754fa >> pato-width |>| pato-length < aism-pronotum:id-1754fa;
-        aism-pronotum:id-1754fa > bspo-dorsal_surface >> pato-convex;
+        aism-pronotum:id-1754fa > bspo-dorsal_region >> pato-convex;
     #anterolateral pronotal angles sharp, obliquely directed anteriorly;
     this > colao-anterolateral_pronotal_angle >> (pato-sharp, pato-oblique_orientation);
     #lateral margin evenly curved on the whole, lateral pronotal carina crenulated by a row of setigerous punctures;
@@ -91,7 +92,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     this > colao-elytral_interstria_9 > bspo-proximal_region > aism-cuticular_carina .ro-adjacent_to colao-elytral_stria_8 < this;
     
     #elytral surface microreticulate,
-        colao-elytron_with_9_striae:id-f48d04 > bspo-dorsal_surface >> aism-microreticulate;
+        colao-elytron_with_9_striae:id-f48d04 > bspo-dorsal_region >> aism-microreticulate;
     #interstriae with sparse punctures, their surface covered with minute flat granules;
         colao-elytron_with_9_striae:id-f48d04 > colao-elytral_interstria:id-b19f79 > aism-punctate_cuticle > aism-cuticular_puncture >> pato-sparse;
         colao-elytral_interstria:id-b19f79 > aism-granulated_cuticle > aism-cuticular_granule >> (pato-decreased_size, pato-flattened);
@@ -104,8 +105,6 @@ OTU = { #// OTUName:  Scarabaeus viettei
     
     #Ventral body surface.
     #Posterior longitudinal hypomeral carina and anterior hypomeral carina absent;
-    #// RES: turns out there is a bug: !> does not work before (...)
-    # this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
     this !> colao-posterior_longitudinal_hypomeral_carina;
     this !> colao-anterior_hypomeral_carina;
     
@@ -134,7 +133,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #dorsal protibial margin between lateral protibial teeth scalloped;
     this > aism-dorsal_protibial_margin_between_protibial_teeth_1_and_2 >> pato-scalloped;
     this > aism-dorsal_protibial_margin_between_protibial_teeth_2_and_3 >> pato-scalloped;
-    this > aism-dorsal_protibial_margin_between_protibial_teeth_3_and_4 >> pato-scalloped;
+    this > aism-dorsal_protibial_margin_between_protibial_teeth_3_and_4 >> pato-scalloped; 
     #ventral protibial margin serrated;
         aism-protibia:id-f2af3d > bspo-ventral_margin >> pato-serrated;
     #anterior protibial margin serrated proximally;
@@ -142,16 +141,17 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #anteroventral margin of profemur toothed distally;
     this > aism-profemur > bspo-antero-ventral_margin > bspo-distal_region > aism-cuticular_spine >> pato-flattened;
     
-    # # #meso- and metatibia with apical spur fused with tibia; #// fixit does it work?
+    # #meso- and metatibia with apical spur fused with tibia; #// RES: a "fused spur" is described as "cuticular spine"
     #// RES: this is not correct since if aism-mesotibial_spur is fused it's not a spur (=separate sclerite)
     #// RES: Also we do not know if it's indeed a spur or protrusion
     #// RES: better  write protrusion
-    # this > aism-mesotibial_spur .pato-fused_with aism-mesotibia:id-296644 < this;
-    # this > aism-metatibial_spur .pato-fused_with aism-metatibia:id-0495d1 < this;
+    #// FIXIT: CHANGED; does it work even if we refer to the class spur and not an individual "spur < this"?
+    this > aism-mesotibia:id-296644 > bspo-distal_region > aism-cuticular_spine .cdao-homologous_to aism-mesotibial_spur;
+    this > aism-metatibia:id-0495d1 > bspo-distal_region > aism-cuticular_spine .cdao-homologous_to aism-metatibial_spur;
     
     
     #anterior surface of mesofemur with many setigerous cuticular punctures,
-    this > aism-mesofemur:id-28ed57 > bspo-anterior_surface > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
+    this > aism-mesofemur:id-28ed57 > bspo-anterior_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 
     #ventral margin with setigerous punctures, dorsal margin with setigerous punctures only distally;
         aism-mesofemur:id-28ed57 > bspo-ventral_margin > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
@@ -162,9 +162,9 @@ OTU = { #// OTUName:  Scarabaeus viettei
     this > aism-mesotibial_anterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-mesotibial_posterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     #dorsal surface of mesotibia with two longitudinal carinae, the proximal carina longer;
-        aism-mesotibia:id-296644 > bspo-dorsal_surface:id-d88326 > bspo-proximal_region > aism-mesotibial_carina >> pato-length |>| pato-length < aism-mesotibial_carina < bspo-medial_region < bspo-dorsal_surface:id-d88326;
+        aism-mesotibia:id-296644 > bspo-dorsal_region:id-d88326 > bspo-proximal_region > aism-mesotibial_carina >> pato-length |>| pato-length < aism-mesotibial_carina < bspo-medial_region < bspo-dorsal_region:id-d88326;
     #anterior surface of metafemur with row of setigerous punctures,
-    this > aism-metafemur:id-8b0a41 > bspo-anterior_surface > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
+    this > aism-metafemur:id-8b0a41 > bspo-anterior_region > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     #dorsal margin with granulate setigerous punctures, ventral margin with setigerous punctures only proximally;
         aism-metafemur:id-8b0a41 > bspo-dorsal_margin > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 
@@ -177,7 +177,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #setae densest on distal region of posteroventral carina; #// fixit a term "increased in number" could simplify the following line
         aism-row_of_punctures:id-d025a7 > bspo-distal_region > aism-simple_setigerous_cuticular_puncture >> pato-amount |>| pato-amount << aism-simple_setigerous_cuticular_puncture < bspo-proximal_region < aism-row_of_punctures:id-d025a7;
     #dorsal surface of metatibia with two setose longitudinal carinae of equal length; #// fixit HERE HAVING THE EXACT COUNT WOULD BE VERY HELPFUL
-        aism-metatibia:id-0495d1 > bspo-dorsal_surface > aism-metatibial_carina >> pato-length .ro-similar_in_magnitude_relative_to  pato-length < aism-metatibial_carina < bspo-dorsal_surface < aism-metatibia:id-0495d1;
+        aism-metatibia:id-0495d1 > bspo-dorsal_region > aism-metatibial_carina >> pato-length .ro-similar_in_magnitude_relative_to  pato-length < aism-metatibial_carina < bspo-dorsal_region < aism-metatibia:id-0495d1;
 
     #Genitalia.
     #Parameres asymmetrical,
@@ -258,9 +258,9 @@ OTU = { #// OTUName:  Scarabaeus viettei
 #     #surface of vertex finely granulated;
 #     this > aism-vertex > aism-granulated_cuticle;
 #     #genae granulated medially, wrinkled laterally; clypeus wrinkled anteriorly;
-#     this > aism-gena:id-27f867 > bspo-medial_surface > aism-granulated_cuticle;
-#         aism-gena:id-27f867 > bspo-lateral_surface >> pato-wrinkled;
-#     this > aism-clypeus > bspo-anterior_surface >> pato-wrinkled;
+#     this > aism-gena:id-27f867 > bspo-medial_region > aism-granulated_cuticle;
+#         aism-gena:id-27f867 > bspo-lateral_region >> pato-wrinkled;
+#     this > aism-clypeus > bspo-anterior_region >> pato-wrinkled;
 #     #antennae with 9 antennomeres;
 #     this > aism-antenna_with_9_antennomeres:id-31e2df > colao-antennal_club > (aism-flagellomere_5, aism-flagellomere_6, aism-flagellomere_7);
 #     #glossa, maxilla and epipharynx present;
@@ -273,7 +273,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
 #     #Pronotum.
 #     #Wider than long, evenly convex;
 #     this > aism-pronotum:id-1d7c12 >> pato-width |>| pato-length < aism-pronotum:id-1d7c12;
-#         aism-pronotum:id-1d7c12 > bspo-dorsal_surface >> pato-convex;
+#         aism-pronotum:id-1d7c12 > bspo-dorsal_region >> pato-convex;
 #     #anterolateral pronotal angles sharp, directed laterally;
 #     this > colao-anterolateral_pronotal_angle >> (pato-sharp, pato-lateral_orientation);
 #     #lateral margin evenly curved on the whole, lateral pronotal carina crenulated by a row of setigerous punctures;
@@ -293,7 +293,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
 #     this > colao-elytral_interstria_8 > bspo-proximal_region > aism-cuticular_carina .ro-adjacent_to colao-elytral_stria_7 < this;
 #     this > colao-elytral_interstria_9 > bspo-proximal_region > aism-cuticular_carina .ro-adjacent_to colao-elytral_stria_8 < this;
 #     #elytral surface microreticulate,
-#         colao-elytron_with_9_striae:id-75f78e > bspo-dorsal_surface >> aism-microreticulate;
+#         colao-elytron_with_9_striae:id-75f78e > bspo-dorsal_region >> aism-microreticulate;
 #     #interstriae with sparse punctures, their surface covered with minute flat granules;
 #         colao-elytron_with_9_striae:id-75f78e > colao-elytral_interstria:id-3d255b > aism-punctate_cuticle > aism-cuticular_puncture >> pato-sparse;
 #         colao-elytral_interstria:id-3d255b > aism-granulated_cuticle > aism-cuticular_granule >> (pato-decreased_size, pato-flattened);
@@ -341,7 +341,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
 #     this > aism-mesotibial_spur .pato-fused_with aism-mesotibia:id-648159 < this;
 #     this > aism-metatibial_spur .pato-fused_with aism-metatibia:id-a88c7d < this;
 #     #anterior surface of mesofemur with many setigerous cuticular punctures,
-#     this > aism-mesofemur:id-a852f3 > bspo-anterior_surface > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
+#     this > aism-mesofemur:id-a852f3 > bspo-anterior_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 #     #ventral margin with setigerous punctures, dorsal margin with setigerous punctures only distally;
 #         aism-mesofemur:id-a852f3 > bspo-ventral_margin > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 #         aism-mesofemur:id-a852f3 > bspo-dorsal_margin > bspo-distal_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
@@ -351,9 +351,9 @@ OTU = { #// OTUName:  Scarabaeus viettei
 #     this > aism-mesotibial_anterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
 #     this > aism-mesotibial_posterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
 #     #dorsal surface of mesotibia with two longitudinal carinae, the proximal carina longer;
-#         aism-mesotibia:id-648159 > bspo-dorsal_surface:id-d2271b > bspo-proximal_region > aism-mesotibial_carina >> pato-length |>| pato-length < aism-mesotibial_carina < bspo-medial_region < bspo-dorsal_surface:id-d2271b;
+#         aism-mesotibia:id-648159 > bspo-dorsal_region:id-d2271b > bspo-proximal_region > aism-mesotibial_carina >> pato-length |>| pato-length < aism-mesotibial_carina < bspo-medial_region < bspo-dorsal_region:id-d2271b;
 #     #anterior surface of metafemur with row of setigerous punctures,
-#     this > aism-metafemur:id-b1a516 > bspo-anterior_surface > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
+#     this > aism-metafemur:id-b1a516 > bspo-anterior_region > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
 #     #dorsal margin with granulate setigerous punctures, ventral margin with setigerous punctures only proximally;
 #         aism-metafemur:id-b1a516 > bspo-dorsal_margin > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 #         aism-metafemur:id-b1a516 > bspo-ventral_margin > bspo-proximal_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
@@ -365,7 +365,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
 #     #setae densest on distal region of posteroventral carina; #// fixit a term "increased in number" could simplify the following line
 #         aism-row_of_punctures:id-1dafe3 > bspo-distal_region > aism-simple_setigerous_cuticular_puncture >> pato-amount |>| pato-amount << aism-simple_setigerous_cuticular_puncture < bspo-proximal_region < aism-row_of_punctures:id-1dafe3;
 #     #dorsal surface of metatibia with two setose longitudinal carinae of equal length; #// fixit HERE HAVING THE EXACT COUNT WOULD BE VERY HELPFUL
-#         aism-metatibia:id-a88c7d > bspo-dorsal_surface > aism-metatibial_carina >> pato-length .ro-similar_in_magnitude_relative_to << pato-length < aism-metatibial_carina < bspo-dorsal_surface < aism-metatibia:id-a88c7d;
+#         aism-metatibia:id-a88c7d > bspo-dorsal_region > aism-metatibial_carina >> pato-length .ro-similar_in_magnitude_relative_to << pato-length < aism-metatibial_carina < bspo-dorsal_region < aism-metatibia:id-a88c7d;
 
 #     #Genitalia.
 #     #Parameres asymmetrical,
