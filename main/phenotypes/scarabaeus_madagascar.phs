@@ -69,7 +69,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     
     # #Pronotum.
     # Wider than long, evenly convex;
-    this > aism-pronotum:id-1754fa >> pato-width |>| pato-length < aism-pronotum:id-1754fa;
+    this > aism-pronotum:id-1754fa >> pato-width |>| pato-length << aism-pronotum:id-1754fa;
         aism-pronotum:id-1754fa > bspo-dorsal_region >> pato-convex;
     #anterolateral pronotal angles sharp, obliquely directed anteriorly;
     this > colao-anterolateral_pronotal_angle >> (pato-sharp, pato-oblique_orientation);
@@ -146,10 +146,11 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #// RES: Also we do not know if it's indeed a spur or protrusion
     #// RES: better  write protrusion
     #// FIXIT: CHANGED; does it work even if we refer to the class spur and not an individual "spur < this"?
-    this > aism-mesotibia:id-296644 > bspo-distal_region > aism-cuticular_spine .cdao-homologous_to aism-mesotibial_spur;
-    this > aism-metatibia:id-0495d1 > bspo-distal_region > aism-cuticular_spine .cdao-homologous_to aism-metatibial_spur;
-    
-    
+    #/ See https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7672696/pdf/syz067.pdf 
+    #/  .ro-in_homology_relationship_with is a better term
+    this > aism-mesotibia:id-296644 > bspo-distal_region > aism-cuticular_spine .ro-in_homology_relationship_with aism-mesotibial_spur;
+    this > aism-metatibia:id-0495d1 > bspo-distal_region > aism-cuticular_spine .ro-in_homology_relationship_with aism-metatibial_spur;
+   
     #anterior surface of mesofemur with many setigerous cuticular punctures,
     this > aism-mesofemur:id-28ed57 > bspo-anterior_region > aism-simple_setigerous_cuticular_puncture >> pato-multiple;
 
@@ -162,7 +163,8 @@ OTU = { #// OTUName:  Scarabaeus viettei
     this > aism-mesotibial_anterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-mesotibial_posterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     #dorsal surface of mesotibia with two longitudinal carinae, the proximal carina longer;
-        aism-mesotibia:id-296644 > bspo-dorsal_region:id-d88326 > bspo-proximal_region > aism-mesotibial_carina >> pato-length |>| pato-length < aism-mesotibial_carina < bspo-medial_region < bspo-dorsal_region:id-d88326;
+    #// FIXIT: fixed: |>| pato-length << aism-mesotibial_carina 
+        aism-mesotibia:id-296644 > bspo-dorsal_region:id-d88326 > bspo-proximal_region > aism-mesotibial_carina >> pato-length |>| pato-length << aism-mesotibial_carina < bspo-medial_region < bspo-dorsal_region:id-d88326;
     #anterior surface of metafemur with row of setigerous punctures,
     this > aism-metafemur:id-8b0a41 > bspo-anterior_region > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     #dorsal margin with granulate setigerous punctures, ventral margin with setigerous punctures only proximally;
@@ -177,7 +179,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #setae densest on distal region of posteroventral carina; #// fixit a term "increased in number" could simplify the following line
         aism-row_of_punctures:id-d025a7 > bspo-distal_region > aism-simple_setigerous_cuticular_puncture >> pato-amount |>| pato-amount << aism-simple_setigerous_cuticular_puncture < bspo-proximal_region < aism-row_of_punctures:id-d025a7;
     #dorsal surface of metatibia with two setose longitudinal carinae of equal length; #// fixit HERE HAVING THE EXACT COUNT WOULD BE VERY HELPFUL
-        aism-metatibia:id-0495d1 > bspo-dorsal_region > aism-metatibial_carina >> pato-length .ro-similar_in_magnitude_relative_to  pato-length < aism-metatibial_carina < bspo-dorsal_region < aism-metatibia:id-0495d1;
+        aism-metatibia:id-0495d1 > bspo-dorsal_region > aism-metatibial_carina >> pato-length .ro-similar_in_magnitude_relative_to  pato-length << aism-metatibial_carina < bspo-dorsal_region < aism-metatibia:id-0495d1;
 
     #Genitalia.
     #Parameres asymmetrical,
