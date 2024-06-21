@@ -1,0 +1,150 @@
+<!-- org_Scarabaeus sakalava -->
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101) [has role in modeling](http://purl.obolibrary.org/obo/RO_0003301) [TU](http://purl.obolibrary.org/obo/CDAO_0000138) [denotes](http://purl.obolibrary.org/obo/IAO_0000219) [species](http://purl.obolibrary.org/obo/TAXRANK_0000006)
+	- [species](http://purl.obolibrary.org/obo/TAXRANK_0000006) [Parent Name Usage ID](http://rs.tdwg.org/dwc/terms/parentNameUsageID) [https://www.gbif.org/species/9074838](https://www.gbif.org/species/9074838)
+	- [species](http://purl.obolibrary.org/obo/TAXRANK_0000006) [Taxon ID](http://rs.tdwg.org/dwc/terms/taxonID) [http://zoobank.org/7AD8F87F-E7C1-4094-BD63-7662F167E9CB](http://zoobank.org/7AD8F87F-E7C1-4094-BD63-7662F167E9CB)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101) [Catalog Number](http://rs.tdwg.org/dwc/terms/catalogNumber) [http://id.luomus.fi/GZ.15827](http://id.luomus.fi/GZ.15827)
+---
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001)
+	- [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001), [lateral side](http://purl.obolibrary.org/obo/BSPO_0000066) [encircles](http://purl.obolibrary.org/obo/AISM_0000078) [cuticular seta](http://purl.obolibrary.org/obo/AISM_0000039): [red brown](http://purl.obolibrary.org/obo/PATO_0001287);
+	- [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001), [ventral side](http://purl.obolibrary.org/obo/BSPO_0000068) [encircles](http://purl.obolibrary.org/obo/AISM_0000078) [cuticular seta](http://purl.obolibrary.org/obo/AISM_0000039): [red brown](http://purl.obolibrary.org/obo/PATO_0001287);
+	- [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001): [black](http://purl.obolibrary.org/obo/PATO_0000317);
+	- [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001): [glistening](http://purl.obolibrary.org/obo/PATO_0001373);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [antenna with 9 antennomeres](http://purl.obolibrary.org/obo/AISM_0000358)
+	- [antenna with 9 antennomeres](http://purl.obolibrary.org/obo/AISM_0000358), [antennal club](http://purl.obolibrary.org/obo/COLAO_0000267)
+		- [antennal club](http://purl.obolibrary.org/obo/COLAO_0000267), [flagellomere 5](http://purl.obolibrary.org/obo/AISM_0000337): present;
+		- [antennal club](http://purl.obolibrary.org/obo/COLAO_0000267), [flagellomere 6](http://purl.obolibrary.org/obo/AISM_0000338): present;
+		- [antennal club](http://purl.obolibrary.org/obo/COLAO_0000267), [flagellomere 7](http://purl.obolibrary.org/obo/AISM_0000339): present;
+	- [antenna with 9 antennomeres](http://purl.obolibrary.org/obo/AISM_0000358): [red brown](http://purl.obolibrary.org/obo/PATO_0001287);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [insect leg](http://purl.obolibrary.org/obo/AISM_0000031) [encircles](http://purl.obolibrary.org/obo/AISM_0000078) [cuticular seta](http://purl.obolibrary.org/obo/AISM_0000039): [red brown](http://purl.obolibrary.org/obo/PATO_0001287);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [genal margin](http://purl.obolibrary.org/obo/AISM_0000386)
+	- [genal margin](http://purl.obolibrary.org/obo/AISM_0000386), [posterior region](http://purl.obolibrary.org/obo/BSPO_0000072): [right angle to](http://purl.obolibrary.org/obo/PATO_0001321);
+	- [genal margin](http://purl.obolibrary.org/obo/AISM_0000386), [anterior region](http://purl.obolibrary.org/obo/BSPO_0000071)
+		- [anterior region](http://purl.obolibrary.org/obo/BSPO_0000071): [protruding](http://purl.obolibrary.org/obo/PATO_0001598);
+		- [anterior region](http://purl.obolibrary.org/obo/BSPO_0000071): [acute angle to](http://purl.obolibrary.org/obo/PATO_0001051);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [head margin at genoclypeal sulcus](http://purl.obolibrary.org/obo/AISM_0000381): [notched](http://purl.obolibrary.org/obo/PATO_0001495);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [lateral clypeal tooth 1](http://purl.obolibrary.org/obo/AISM_0000362): [acute angle to](http://purl.obolibrary.org/obo/PATO_0001051);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [lateral clypeal tooth 2](http://purl.obolibrary.org/obo/AISM_0000363): [acute angle to](http://purl.obolibrary.org/obo/PATO_0001051);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [clypeal margin between clypeal teeth 1](http://purl.obolibrary.org/obo/AISM_0000415)
+	- [clypeal margin between clypeal teeth 1](http://purl.obolibrary.org/obo/AISM_0000415): [acute angle to](http://purl.obolibrary.org/obo/PATO_0001051);
+	- [clypeal margin between clypeal teeth 1](http://purl.obolibrary.org/obo/AISM_0000415): [notched](http://purl.obolibrary.org/obo/PATO_0001495);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [clypeal margin between clypeal teeth 1 and 2](http://purl.obolibrary.org/obo/AISM_0000414)
+	- [clypeal margin between clypeal teeth 1 and 2](http://purl.obolibrary.org/obo/AISM_0000414): [acute angle to](http://purl.obolibrary.org/obo/PATO_0001051);
+	- [clypeal margin between clypeal teeth 1 and 2](http://purl.obolibrary.org/obo/AISM_0000414): [notched](http://purl.obolibrary.org/obo/PATO_0001495);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [frons](http://purl.obolibrary.org/obo/AISM_0004020)
+	- [frons](http://purl.obolibrary.org/obo/AISM_0004020), [cuticular carina](http://purl.obolibrary.org/obo/AISM_0000501)
+		- [cuticular carina](http://purl.obolibrary.org/obo/AISM_0000501): [bilaterally paired](http://purl.obolibrary.org/obo/PATO_0040024);
+		- [cuticular carina](http://purl.obolibrary.org/obo/AISM_0000501): [transverse orientation](http://purl.obolibrary.org/obo/PATO_0002502);
+		- [cuticular carina](http://purl.obolibrary.org/obo/AISM_0000501): [decreased length](http://purl.obolibrary.org/obo/PATO_0000574);
+	- [frons](http://purl.obolibrary.org/obo/AISM_0004020): [protruding](http://purl.obolibrary.org/obo/PATO_0001598);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [vertex](http://purl.obolibrary.org/obo/AISM_0004025), [granulated cuticle](http://purl.obolibrary.org/obo/AISM_0000528): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [gena](http://purl.obolibrary.org/obo/AISM_0004026)
+	- [gena](http://purl.obolibrary.org/obo/AISM_0004026), [medial region](http://purl.obolibrary.org/obo/BSPO_0000083), [granulated cuticle](http://purl.obolibrary.org/obo/AISM_0000528): present;
+	- [gena](http://purl.obolibrary.org/obo/AISM_0004026), [lateral region](http://purl.obolibrary.org/obo/BSPO_0000082): [wrinkled](http://purl.obolibrary.org/obo/PATO_0001810);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [clypeus](http://purl.obolibrary.org/obo/AISM_0004019), [anterior region](http://purl.obolibrary.org/obo/BSPO_0000071): [wrinkled](http://purl.obolibrary.org/obo/PATO_0001810);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [glossa](http://purl.obolibrary.org/obo/AISM_0000049): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [epipharynx](http://purl.obolibrary.org/obo/AISM_0000105): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [insect maxilla](http://purl.obolibrary.org/obo/AISM_0000044): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [maxillary palpus with 4 palpomeres](http://purl.obolibrary.org/obo/AISM_0000393): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [labial palpus with 3 palpomeres](http://purl.obolibrary.org/obo/AISM_0000397): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [pronotum](http://purl.obolibrary.org/obo/AISM_0000059)
+	- [pronotum](http://purl.obolibrary.org/obo/AISM_0000059), [dorsal region](http://purl.obolibrary.org/obo/BSPO_0000079): [convex](http://purl.obolibrary.org/obo/PATO_0001355);
+	- [pronotum](http://purl.obolibrary.org/obo/AISM_0000059), [lateral margin](http://purl.obolibrary.org/obo/BSPO_0000682): [curved](http://purl.obolibrary.org/obo/PATO_0000406);
+	- [pronotum](http://purl.obolibrary.org/obo/AISM_0000059), [posterior margin](http://purl.obolibrary.org/obo/BSPO_0000672): [curved](http://purl.obolibrary.org/obo/PATO_0000406);
+	- [pronotum](http://purl.obolibrary.org/obo/AISM_0000059), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384) [coincident with](http://purl.obolibrary.org/obo/RO_0002008) [posterior margin](http://purl.obolibrary.org/obo/BSPO_0000672)
+	- [pronotum](http://purl.obolibrary.org/obo/AISM_0000059): [width](http://purl.obolibrary.org/obo/PATO_0000921) [larger than](http://purl.obolibrary.org/obo/RO_0015007) [length](http://purl.obolibrary.org/obo/PATO_0000122) of [pronotum](http://purl.obolibrary.org/obo/AISM_0000059)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [anterolateral pronotal angle](http://purl.obolibrary.org/obo/COLAO_0000224)
+	- [anterolateral pronotal angle](http://purl.obolibrary.org/obo/COLAO_0000224): [sharp](http://purl.obolibrary.org/obo/PATO_0001419);
+	- [anterolateral pronotal angle](http://purl.obolibrary.org/obo/COLAO_0000224): [lateral orientation](http://purl.obolibrary.org/obo/PATO_0002497);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [lateral pronotal carina](http://purl.obolibrary.org/obo/COLAO_0000001)
+	- [lateral pronotal carina](http://purl.obolibrary.org/obo/COLAO_0000001), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384): present;
+	- [lateral pronotal carina](http://purl.obolibrary.org/obo/COLAO_0000001): [serrated](http://purl.obolibrary.org/obo/PATO_0001206);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [pronotal disc](http://purl.obolibrary.org/obo/COLAO_0000002), [punctate cuticle](http://purl.obolibrary.org/obo/AISM_0000529), [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524): [sparse](http://purl.obolibrary.org/obo/PATO_0001609);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [elytron with 9 striae](http://purl.obolibrary.org/obo/COLAO_0000226)
+	- [elytron with 9 striae](http://purl.obolibrary.org/obo/COLAO_0000226), [dorsal region](http://purl.obolibrary.org/obo/BSPO_0000079): [microreticulate](http://purl.obolibrary.org/obo/AISM_0000352);
+	- [elytron with 9 striae](http://purl.obolibrary.org/obo/COLAO_0000226), [elytral interstria](http://purl.obolibrary.org/obo/COLAO_0000018)
+		- [elytral interstria](http://purl.obolibrary.org/obo/COLAO_0000018), [punctate cuticle](http://purl.obolibrary.org/obo/AISM_0000529), [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524): [sparse](http://purl.obolibrary.org/obo/PATO_0001609);
+		- [elytral interstria](http://purl.obolibrary.org/obo/COLAO_0000018), [granulated cuticle](http://purl.obolibrary.org/obo/AISM_0000528), [cuticular granule](http://purl.obolibrary.org/obo/AISM_0000525)
+			- [cuticular granule](http://purl.obolibrary.org/obo/AISM_0000525): [decreased size](http://purl.obolibrary.org/obo/PATO_0000587);
+			- [cuticular granule](http://purl.obolibrary.org/obo/AISM_0000525): [flattened](http://purl.obolibrary.org/obo/PATO_0002254);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [elytral interstria 8](http://purl.obolibrary.org/obo/COLAO_0000215), [proximal region](http://purl.obolibrary.org/obo/BSPO_0000077), [cuticular carina](http://purl.obolibrary.org/obo/AISM_0000501) [adjacent to](http://purl.obolibrary.org/obo/RO_0002220) [elytral stria 7](http://purl.obolibrary.org/obo/COLAO_0000214) of [male organism](http://purl.obolibrary.org/obo/UBERON_0003101)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [elytral interstria 9](http://purl.obolibrary.org/obo/COLAO_0000217), [proximal region](http://purl.obolibrary.org/obo/BSPO_0000077), [cuticular carina](http://purl.obolibrary.org/obo/AISM_0000501) [adjacent to](http://purl.obolibrary.org/obo/RO_0002220) [elytral stria 8](http://purl.obolibrary.org/obo/COLAO_0000216) of [male organism](http://purl.obolibrary.org/obo/UBERON_0003101)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [scutellar shield](http://purl.obolibrary.org/obo/COLAO_0000011): [concealed](http://purl.obolibrary.org/obo/PATO_0002508);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [hind wing](http://purl.obolibrary.org/obo/AISM_0000038)
+	- [hind wing](http://purl.obolibrary.org/obo/AISM_0000038): [present](http://purl.obolibrary.org/obo/PATO_0000467);
+	- [hind wing](http://purl.obolibrary.org/obo/AISM_0000038): [normal](http://purl.obolibrary.org/obo/PATO_0000461);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdomen with 8 sternites](http://purl.obolibrary.org/obo/AISM_0000356): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdominal sternite VIII](http://purl.obolibrary.org/obo/AISM_0004110), [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157)
+	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157): [bilaterally paired](http://purl.obolibrary.org/obo/PATO_0040024);
+	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157) [adjacent to](http://purl.obolibrary.org/obo/RO_0002220) [postero-lateral margin](http://purl.obolibrary.org/obo/BSPO_0000047) of [abdominal sternite VIII](http://purl.obolibrary.org/obo/AISM_0004110)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097)
+	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097), [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524)
+		- [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
+		- [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524): [sparse](http://purl.obolibrary.org/obo/PATO_0001609);
+	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097), [anterior groove of tergite VIII](http://purl.obolibrary.org/obo/AISM_0000375): present;
+	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097), [anterior carina of tergite VIII](http://purl.obolibrary.org/obo/AISM_0000377): present;
+	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097), [distal border of tergite VIII](http://purl.obolibrary.org/obo/AISM_0000413), [posterior region](http://purl.obolibrary.org/obo/BSPO_0000072): [increased length](http://purl.obolibrary.org/obo/PATO_0000573);
+	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097): [convex](http://purl.obolibrary.org/obo/PATO_0001355);
+	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097): [microreticulate](http://purl.obolibrary.org/obo/AISM_0000352);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [protarsus with 5 protarsomeres](http://purl.obolibrary.org/obo/AISM_0000331): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [mesotarsus with 5 mesotarsomeres](http://purl.obolibrary.org/obo/AISM_0000332): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [metatarsus with 5 metatarsomeres](http://purl.obolibrary.org/obo/AISM_0000333): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [protibia](http://purl.obolibrary.org/obo/AISM_0000067)
+	- [protibia](http://purl.obolibrary.org/obo/AISM_0000067), [dorsal protibial cuticular tooth 1](http://purl.obolibrary.org/obo/AISM_0000368): present;
+	- [protibia](http://purl.obolibrary.org/obo/AISM_0000067), [dorsal protibial cuticular tooth 2](http://purl.obolibrary.org/obo/AISM_0000369): present;
+	- [protibia](http://purl.obolibrary.org/obo/AISM_0000067), [dorsal protibial cuticular tooth 3](http://purl.obolibrary.org/obo/AISM_0000370): present;
+	- [protibia](http://purl.obolibrary.org/obo/AISM_0000067), [dorsal protibial cuticular tooth 4](http://purl.obolibrary.org/obo/AISM_0000371): [decreased size](http://purl.obolibrary.org/obo/PATO_0000587);
+	- [protibia](http://purl.obolibrary.org/obo/AISM_0000067), [ventral margin](http://purl.obolibrary.org/obo/BSPO_0000684): [serrated](http://purl.obolibrary.org/obo/PATO_0001206);
+	- [protibia](http://purl.obolibrary.org/obo/AISM_0000067), [ventral margin](http://purl.obolibrary.org/obo/BSPO_0000684), [proximal region](http://purl.obolibrary.org/obo/BSPO_0000077): [serrated](http://purl.obolibrary.org/obo/PATO_0001206);
+	- [protibia](http://purl.obolibrary.org/obo/AISM_0000067): [curved](http://purl.obolibrary.org/obo/PATO_0000406);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [dorsal protibial margin between protibial teeth 1 and 2](http://purl.obolibrary.org/obo/AISM_0000417): [scalloped](http://purl.obolibrary.org/obo/PATO_0001889);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [dorsal protibial margin between protibial teeth 2 and 3](http://purl.obolibrary.org/obo/AISM_0000418): [scalloped](http://purl.obolibrary.org/obo/PATO_0001889);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [dorsal protibial margin between protibial teeth 3 and 4](http://purl.obolibrary.org/obo/AISM_0000419): [scalloped](http://purl.obolibrary.org/obo/PATO_0001889);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [profemur](http://purl.obolibrary.org/obo/AISM_0000070), [antero-ventral margin](http://purl.obolibrary.org/obo/BSPO_0000688), [distal region](http://purl.obolibrary.org/obo/BSPO_0000078), [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527): [flattened](http://purl.obolibrary.org/obo/PATO_0002254);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [mesotibia](http://purl.obolibrary.org/obo/AISM_0000068)
+	- [mesotibia](http://purl.obolibrary.org/obo/AISM_0000068), [distal region](http://purl.obolibrary.org/obo/BSPO_0000078), [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527) [in homology relationship with](http://purl.obolibrary.org/obo/RO_HOM0000001) [mesotibial spur](http://purl.obolibrary.org/obo/AISM_0000434);
+	- [mesotibia](http://purl.obolibrary.org/obo/AISM_0000068), [dorsal region](http://purl.obolibrary.org/obo/BSPO_0000079), [proximal region](http://purl.obolibrary.org/obo/BSPO_0000077), [mesotibial carina](http://purl.obolibrary.org/obo/AISM_0000424): [length](http://purl.obolibrary.org/obo/PATO_0000122) [larger than](http://purl.obolibrary.org/obo/RO_0015007) [length](http://purl.obolibrary.org/obo/PATO_0000122) of [mesotibial carina](http://purl.obolibrary.org/obo/AISM_0000424) of [medial region](http://purl.obolibrary.org/obo/BSPO_0000083) of [dorsal region](http://purl.obolibrary.org/obo/BSPO_0000079)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [metatibia](http://purl.obolibrary.org/obo/AISM_0000069)
+	- [metatibia](http://purl.obolibrary.org/obo/AISM_0000069), [distal region](http://purl.obolibrary.org/obo/BSPO_0000078), [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527) [in homology relationship with](http://purl.obolibrary.org/obo/RO_HOM0000001) [metatibial spur](http://purl.obolibrary.org/obo/AISM_0000435);
+	- [metatibia](http://purl.obolibrary.org/obo/AISM_0000069), [dorsal region](http://purl.obolibrary.org/obo/BSPO_0000079), [metatibial carina](http://purl.obolibrary.org/obo/AISM_0000425): [length](http://purl.obolibrary.org/obo/PATO_0000122) [similar in magnitude relative to](http://purl.obolibrary.org/obo/RO_0015009) [length](http://purl.obolibrary.org/obo/PATO_0000122) of [metatibial carina](http://purl.obolibrary.org/obo/AISM_0000425) of [dorsal region](http://purl.obolibrary.org/obo/BSPO_0000079) of [metatibia](http://purl.obolibrary.org/obo/AISM_0000069)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [mesofemur](http://purl.obolibrary.org/obo/AISM_0000071)
+	- [mesofemur](http://purl.obolibrary.org/obo/AISM_0000071), [anterior region](http://purl.obolibrary.org/obo/BSPO_0000071), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
+	- [mesofemur](http://purl.obolibrary.org/obo/AISM_0000071), [ventral margin](http://purl.obolibrary.org/obo/BSPO_0000684), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
+	- [mesofemur](http://purl.obolibrary.org/obo/AISM_0000071), [dorsal margin](http://purl.obolibrary.org/obo/BSPO_0000679), [distal region](http://purl.obolibrary.org/obo/BSPO_0000078), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [mesotibial posteroventral carina](http://purl.obolibrary.org/obo/AISM_0000426), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [mesotibial anteroventral carina](http://purl.obolibrary.org/obo/AISM_0000427), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [mesotibial anterodorsal carina](http://purl.obolibrary.org/obo/AISM_0000428), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [mesotibial posterodorsal carina](http://purl.obolibrary.org/obo/AISM_0000429), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [metafemur](http://purl.obolibrary.org/obo/AISM_0000072)
+	- [metafemur](http://purl.obolibrary.org/obo/AISM_0000072), [anterior region](http://purl.obolibrary.org/obo/BSPO_0000071), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+	- [metafemur](http://purl.obolibrary.org/obo/AISM_0000072), [dorsal margin](http://purl.obolibrary.org/obo/BSPO_0000679), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
+	- [metafemur](http://purl.obolibrary.org/obo/AISM_0000072), [ventral margin](http://purl.obolibrary.org/obo/BSPO_0000684), [proximal region](http://purl.obolibrary.org/obo/BSPO_0000077), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [metatibial posteroventral carina](http://purl.obolibrary.org/obo/AISM_0000430), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384)
+	- [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+	- [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [distal region](http://purl.obolibrary.org/obo/BSPO_0000078), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): [amount](http://purl.obolibrary.org/obo/PATO_0000070) [larger than](http://purl.obolibrary.org/obo/RO_0015007) [amount](http://purl.obolibrary.org/obo/PATO_0000070) of [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411) of [proximal region](http://purl.obolibrary.org/obo/BSPO_0000077) of [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384)
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [metatibial anteroventral carina](http://purl.obolibrary.org/obo/AISM_0000431), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [metatibial anterodorsal carina](http://purl.obolibrary.org/obo/AISM_0000432), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [metatibial posterodorsal carina](http://purl.obolibrary.org/obo/AISM_0000433), [row of punctures](http://purl.obolibrary.org/obo/AISM_0000384), [simple setigerous cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000411): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [parameres](http://purl.obolibrary.org/obo/AISM_0000392)
+	- [parameres](http://purl.obolibrary.org/obo/AISM_0000392), [dorsal margin](http://purl.obolibrary.org/obo/BSPO_0000679): [concave](http://purl.obolibrary.org/obo/PATO_0001857);
+	- [parameres](http://purl.obolibrary.org/obo/AISM_0000392), [ventral margin](http://purl.obolibrary.org/obo/BSPO_0000684): [obtuse](http://purl.obolibrary.org/obo/PATO_0001935);
+	- [parameres](http://purl.obolibrary.org/obo/AISM_0000392), [distal region](http://purl.obolibrary.org/obo/BSPO_0000078)
+		- [distal region](http://purl.obolibrary.org/obo/BSPO_0000078), [ventral margin](http://purl.obolibrary.org/obo/BSPO_0000684): [concave](http://purl.obolibrary.org/obo/PATO_0001857);
+		- [distal region](http://purl.obolibrary.org/obo/BSPO_0000078), [dorsal margin](http://purl.obolibrary.org/obo/BSPO_0000679): [straight angle to](http://purl.obolibrary.org/obo/PATO_0001322);
+		- [distal region](http://purl.obolibrary.org/obo/BSPO_0000078): [dorso-ventrally flattened](http://purl.obolibrary.org/obo/PATO_0002053);
+	- [parameres](http://purl.obolibrary.org/obo/AISM_0000392): [asymmetrical](http://purl.obolibrary.org/obo/PATO_0000616);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [left paramere](http://purl.obolibrary.org/obo/AISM_0000372), [ventral margin](http://purl.obolibrary.org/obo/BSPO_0000684), [cuticular protrusion](http://purl.obolibrary.org/obo/AISM_0000008): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [frontolateral peripheral endophallite](http://purl.obolibrary.org/obo/COLAO_0000243)
+	- [frontolateral peripheral endophallite](http://purl.obolibrary.org/obo/COLAO_0000243), [distal region](http://purl.obolibrary.org/obo/BSPO_0000078): [notched](http://purl.obolibrary.org/obo/PATO_0001495);
+	- [frontolateral peripheral endophallite](http://purl.obolibrary.org/obo/COLAO_0000243): [flattened](http://purl.obolibrary.org/obo/PATO_0002254);
+	- [frontolateral peripheral endophallite](http://purl.obolibrary.org/obo/COLAO_0000243): [elongated](http://purl.obolibrary.org/obo/PATO_0001154);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [axial endophallite](http://purl.obolibrary.org/obo/COLAO_0000240): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [subaxial endophallite](http://purl.obolibrary.org/obo/COLAO_0000241): present;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [superior right peripheral endophallite](http://purl.obolibrary.org/obo/COLAO_0000242), [lateral region](http://purl.obolibrary.org/obo/BSPO_0000082): [ring shaped](http://purl.obolibrary.org/obo/PATO_0002539);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [raspula](http://purl.obolibrary.org/obo/COLAO_0000247), [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527)
+	- [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
+	- [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527): [elongated](http://purl.obolibrary.org/obo/PATO_0001154);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101): [ovate](http://purl.obolibrary.org/obo/PATO_0001891);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [posterior longitudinal hypomeral carina](http://purl.obolibrary.org/obo/COLAO_0000246): absent;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [anterior hypomeral carina](http://purl.obolibrary.org/obo/COLAO_0000250): absent;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [lamella copulatrix](http://purl.obolibrary.org/obo/COLAO_0000239): absent;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [length](http://purl.obolibrary.org/obo/PATO_0000122) = 23.0, unit: [millimeter](http://purl.obolibrary.org/obo/UO_0000016);

@@ -4,10 +4,6 @@
 	- [species](http://purl.obolibrary.org/obo/TAXRANK_0000006) [Taxon ID](http://rs.tdwg.org/dwc/terms/taxonID) [https://www.gbif.org/species/4997091](https://www.gbif.org/species/4997091)
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101) [Catalog Number](http://rs.tdwg.org/dwc/terms/catalogNumber) [http://id.luomus.fi/GZ.15821](http://id.luomus.fi/GZ.15821)
 ---
-- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [posterior longitudinal hypomeral carina](http://purl.obolibrary.org/obo/COLAO_0000246): absent;
-- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [anterior hypomeral carina](http://purl.obolibrary.org/obo/COLAO_0000250): absent;
-- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [lamella copulatrix](http://purl.obolibrary.org/obo/COLAO_0000239): absent;
-- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [length](http://purl.obolibrary.org/obo/PATO_0000122) = 21.5, unit: [millimeter](http://purl.obolibrary.org/obo/UO_0000016);
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001)
 	- [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001), [lateral side](http://purl.obolibrary.org/obo/BSPO_0000066) [encircles](http://purl.obolibrary.org/obo/AISM_0000078) [cuticular seta](http://purl.obolibrary.org/obo/AISM_0000039): [red brown](http://purl.obolibrary.org/obo/PATO_0001287);
 	- [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001), [ventral side](http://purl.obolibrary.org/obo/BSPO_0000068) [encircles](http://purl.obolibrary.org/obo/AISM_0000078) [cuticular seta](http://purl.obolibrary.org/obo/AISM_0000039): [red brown](http://purl.obolibrary.org/obo/PATO_0001287);
@@ -78,8 +74,8 @@
 	- [hind wing](http://purl.obolibrary.org/obo/AISM_0000038): [normal](http://purl.obolibrary.org/obo/PATO_0000461);
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdomen with 8 sternites](http://purl.obolibrary.org/obo/AISM_0000356): present;
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdominal sternite VIII](http://purl.obolibrary.org/obo/AISM_0004110), [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157)
-	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157) [adjacent to](http://purl.obolibrary.org/obo/RO_0002220) [postero-lateral margin](http://purl.obolibrary.org/obo/BSPO_0000047) of [abdominal sternite VIII](http://purl.obolibrary.org/obo/AISM_0004110)
 	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157): [bilaterally paired](http://purl.obolibrary.org/obo/PATO_0040024);
+	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157) [adjacent to](http://purl.obolibrary.org/obo/RO_0002220) [postero-lateral margin](http://purl.obolibrary.org/obo/BSPO_0000047) of [abdominal sternite VIII](http://purl.obolibrary.org/obo/AISM_0004110)
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097)
 	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097), [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524)
 		- [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
@@ -148,3 +144,7 @@
 	- [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
 	- [cuticular spine](http://purl.obolibrary.org/obo/AISM_0000527): [elongated](http://purl.obolibrary.org/obo/PATO_0001154);
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101): [ovate](http://purl.obolibrary.org/obo/PATO_0001891);
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [posterior longitudinal hypomeral carina](http://purl.obolibrary.org/obo/COLAO_0000246): absent;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [anterior hypomeral carina](http://purl.obolibrary.org/obo/COLAO_0000250): absent;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [lamella copulatrix](http://purl.obolibrary.org/obo/COLAO_0000239): absent;
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [length](http://purl.obolibrary.org/obo/PATO_0000122) = 21.5, unit: [millimeter](http://purl.obolibrary.org/obo/UO_0000016);

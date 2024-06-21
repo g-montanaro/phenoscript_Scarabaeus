@@ -139,7 +139,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     #anteroventral margin of profemur toothed distally;
     this > aism-profemur > bspo-antero-ventral_margin > bspo-distal_region > aism-cuticular_spine >> pato-flattened;
     
-    # #meso- and metatibia with apical spur fused with tibia;
+    #meso- and metatibia with apical spur fused with tibia;
     #/ See https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7672696/pdf/syz067.pdf 
     #/  .ro-in_homology_relationship_with should be preferred over .cdao-homologous_to
     this > aism-mesotibia:id-296644 > bspo-distal_region > aism-cuticular_spine .ro-in_homology_relationship_with aism-mesotibial_spur;
@@ -155,7 +155,7 @@ OTU = { #// OTUName:  Scarabaeus viettei
     this > aism-mesotibial_posteroventral_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-mesotibial_anteroventral_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     this > aism-mesotibial_anterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
-    this > aism-mesotibial_posterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture; homologous
+    this > aism-mesotibial_posterodorsal_carina > aism-row_of_punctures > aism-simple_setigerous_cuticular_puncture;
     #dorsal surface of mesotibia with two longitudinal carinae, the proximal carina longer;
         aism-mesotibia:id-296644 > bspo-dorsal_region:id-d88326 > bspo-proximal_region > aism-mesotibial_carina >> pato-length |>| pato-length << aism-mesotibial_carina < bspo-medial_region < bspo-dorsal_region:id-d88326;
     #anterior surface of metafemur with row of setigerous punctures,
@@ -205,14 +205,17 @@ OTU = { #// OTUName:  Scarabaeus viettei
 }
 
 
+
+
 OTU = { #// OTUName:  Scarabaeus sakalava
 
 #Description based on the holotype (male)
 
   DATA = {
-    uberon-male_organism:scarabaeus_viettei[this = True, linksTraits = True, cls = 'uberon-adult_organism', cls = 'dwc-Preserved_Specimen'] .rdfs-label 'org_Scarabaeus sakalava';
-    uberon-male_organism:scarabaeus_viettei .dwc-Catalog_Number 'http://id.luomus.fi/GZ.15827';
-    uberon-male_organism:scarabaeus_viettei .ro-has_role_in_modeling cdao-TU .iao-denotes taxrank-species:id-b787bd;
+    uberon-male_organism:scarabaeus_sakalava[this = True, linksTraits = True, cls = 'uberon-adult_organism', cls = 'dwc-Preserved_Specimen'] .rdfs-label 'org_Scarabaeus sakalava';
+    #// FIXIT: this id is from viettei http://id.luomus.fi/GZ.15827
+    uberon-male_organism:scarabaeus_sakalava .dwc-Catalog_Number 'http://id.luomus.fi/GZ.15827';
+    uberon-male_organism:scarabaeus_sakalava .ro-has_role_in_modeling cdao-TU .iao-denotes taxrank-species:id-b787bd;
         
     taxrank-species:id-b787bd .dwc-Taxon_ID_taxonID 'http://zoobank.org/7AD8F87F-E7C1-4094-BD63-7662F167E9CB';
     taxrank-species:id-b787bd .dwc-Parent_Name_Usage_ID 'https://www.gbif.org/species/9074838';
@@ -224,7 +227,7 @@ OTU = { #// OTUName:  Scarabaeus sakalava
     #Body.
     #Oval shaped;
     this >> pato-ovate;
-    #cuticle black, shiny, antennae reddish brown;
+    # cuticle black, shiny, antennae reddish brown;
     this > uberon-chitin-based_cuticle:id-79e4d9 >> (pato-black, pato-glistening);
     this > aism-antenna_with_9_antennomeres:id-31e2df >> pato-red_brown;
     #legs, lateral and ventral surface with reddish brown setae.
@@ -300,7 +303,11 @@ OTU = { #// OTUName:  Scarabaeus sakalava
     
     #Ventral body surface.
     #Posterior longitudinal hypomeral carina and anterior hypomeral carina absent;
-    this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
+    #// FIXIT: !> does not work in fornt of () 
+    #this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
+    this !> colao-posterior_longitudinal_hypomeral_carina;
+    this !> colao-anterior_hypomeral_carina;
+    
     #abdomen with 8 sternites,
     this > aism-abdomen_with_8_sternites;
     #7th abdominal sternite with two symmetric grooves along posterolateral margin;
