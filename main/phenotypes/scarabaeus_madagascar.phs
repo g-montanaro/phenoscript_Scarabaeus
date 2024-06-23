@@ -213,7 +213,6 @@ OTU = { #// OTUName:  Scarabaeus sakalava
 
   DATA = {
     uberon-male_organism:scarabaeus_sakalava[this = True, linksTraits = True, cls = 'uberon-adult_organism', cls = 'dwc-Preserved_Specimen'] .rdfs-label 'org_Scarabaeus sakalava';
-    #// FIXIT: this id is from viettei http://id.luomus.fi/GZ.15827
     uberon-male_organism:scarabaeus_sakalava .dwc-Catalog_Number 'http://id.luomus.fi/GZ.15827';
     uberon-male_organism:scarabaeus_sakalava .ro-has_role_in_modeling cdao-TU .iao-denotes taxrank-species:id-b787bd;
         
@@ -303,8 +302,6 @@ OTU = { #// OTUName:  Scarabaeus sakalava
     
     #Ventral body surface.
     #Posterior longitudinal hypomeral carina and anterior hypomeral carina absent;
-    #// FIXIT: !> does not work in fornt of () 
-    #this !> (colao-posterior_longitudinal_hypomeral_carina, colao-anterior_hypomeral_carina);
     this !> colao-posterior_longitudinal_hypomeral_carina;
     this !> colao-anterior_hypomeral_carina;
     
