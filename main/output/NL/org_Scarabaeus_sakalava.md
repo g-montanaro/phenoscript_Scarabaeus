@@ -1,8 +1,8 @@
 <!-- org_Scarabaeus sakalava -->
+- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101) [Catalog Number](http://rs.tdwg.org/dwc/terms/catalogNumber) [http://id.luomus.fi/GZ.15827](http://id.luomus.fi/GZ.15827)
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101) [has role in modeling](http://purl.obolibrary.org/obo/RO_0003301) [TU](http://purl.obolibrary.org/obo/CDAO_0000138) [denotes](http://purl.obolibrary.org/obo/IAO_0000219) [species](http://purl.obolibrary.org/obo/TAXRANK_0000006)
 	- [species](http://purl.obolibrary.org/obo/TAXRANK_0000006) [Parent Name Usage ID](http://rs.tdwg.org/dwc/terms/parentNameUsageID) [https://www.gbif.org/species/9074838](https://www.gbif.org/species/9074838)
 	- [species](http://purl.obolibrary.org/obo/TAXRANK_0000006) [Taxon ID](http://rs.tdwg.org/dwc/terms/taxonID) [http://zoobank.org/7AD8F87F-E7C1-4094-BD63-7662F167E9CB](http://zoobank.org/7AD8F87F-E7C1-4094-BD63-7662F167E9CB)
-- [male organism](http://purl.obolibrary.org/obo/UBERON_0003101) [Catalog Number](http://rs.tdwg.org/dwc/terms/catalogNumber) [http://id.luomus.fi/GZ.15827](http://id.luomus.fi/GZ.15827)
 ---
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001)
 	- [chitin-based cuticle](http://purl.obolibrary.org/obo/UBERON_0001001), [lateral side](http://purl.obolibrary.org/obo/BSPO_0000066) [encircles](http://purl.obolibrary.org/obo/AISM_0000078) [cuticular seta](http://purl.obolibrary.org/obo/AISM_0000039): [red brown](http://purl.obolibrary.org/obo/PATO_0001287);
@@ -74,8 +74,8 @@
 	- [hind wing](http://purl.obolibrary.org/obo/AISM_0000038): [normal](http://purl.obolibrary.org/obo/PATO_0000461);
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdomen with 8 sternites](http://purl.obolibrary.org/obo/AISM_0000356): present;
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdominal sternite VIII](http://purl.obolibrary.org/obo/AISM_0004110), [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157)
-	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157): [bilaterally paired](http://purl.obolibrary.org/obo/PATO_0040024);
 	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157) [adjacent to](http://purl.obolibrary.org/obo/RO_0002220) [postero-lateral margin](http://purl.obolibrary.org/obo/BSPO_0000047) of [abdominal sternite VIII](http://purl.obolibrary.org/obo/AISM_0004110)
+	- [cuticular groove](http://purl.obolibrary.org/obo/AISM_0000157): [bilaterally paired](http://purl.obolibrary.org/obo/PATO_0040024);
 - [male organism](http://purl.obolibrary.org/obo/UBERON_0003101), [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097)
 	- [abdominal tergite VIII](http://purl.obolibrary.org/obo/AISM_0004097), [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524)
 		- [cuticular puncture](http://purl.obolibrary.org/obo/AISM_0000524): [multiple](http://purl.obolibrary.org/obo/PATO_0002118);
